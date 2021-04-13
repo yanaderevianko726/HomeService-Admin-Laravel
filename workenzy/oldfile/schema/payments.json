@@ -1,0 +1,73 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "primary": true,
+        "fillable": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "amount",
+        "dbType": "double,10,2:default,0",
+        "htmlType": "number",
+        "validations": "required|min:0"
+    },
+    {
+        "name": "description",
+        "dbType": "string,255",
+        "htmlType": "text",
+        "validations": "required|max:255"
+    },
+    {
+        "name": "user_id",
+        "title": "user.name",
+        "dbType": "integer:unsigned:foreign,users,id",
+        "htmlType": "select,$user",
+        "validations": "required|exists:users,id",
+        "relation": "mt1,User,user_id,id",
+        "inForm": false,
+        "inIndex": true
+    },
+    {
+        "name": "payment_method_id",
+        "title": "payment_method.name",
+        "dbType": "integer:unsigned:foreign,payment_methods,id",
+        "htmlType": "select,$payment_method",
+        "validations": "required|exists:payment_methods,id",
+        "relation": "mt1,PaymentMethod,payment_method_id,id"
+    },
+    {
+        "name": "payment_status_id",
+        "title": "payment_status.name",
+        "dbType": "integer:unsigned:foreign,payment_statuses,id",
+        "htmlType": "select,$payment_status",
+        "validations": "required|exists:payment_statuses,id",
+        "relation": "mt1,PaymentStatus,payment_status_id,id"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": true
+    }
+]

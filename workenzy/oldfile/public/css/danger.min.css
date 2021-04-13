@@ -1,0 +1,9 @@
+/*
+ * File name: danger.min.css
+ * Last modified: 2021.01.30 at 16:58:51
+ * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Copyright (c) 2021
+ */
+
+.breadcrumb-item>a,.card .card-header .nav-link:not(.active),.form-group a:not(.btn),.nav-pills .nav-link.selected,.page-link,footer a:not(.btn){color:#d32535!important}.breadcrumb-item>a:hover,.card .card-header .nav-link:not(.active):hover,.form-group a:not(.btn):hover,.nav-pills .nav-link:not(.active):hover,.page-link:hover,footer a:not(.btn):hover{color:#a51f28!important}.card .nav-pills .nav-link.active,.card .nav-pills .show>.nav-link,.dropdown-menu>a.dropdown-item.active,.dropdown-menu>a.dropdown-item:active{background-color:#d32535!important;color:#fff!important}.select2-container--bootstrap4 .select2-results__option--highlighted,.select2-container--bootstrap4 .select2-results__option--highlighted.select2-results__option[aria-selected=true]{background-color:#d32535!important;color:#f8f9fa!important}.select2-container--bootstrap4.select2-container--focus .select2-selection{border-color:rgba(211,37,53,.25);-webkit-box-shadow:none;box-shadow:none}.page-link:focus{box-shadow:0 0 0 .2rem rgba(211,37,53,.25)}.form-control:focus{border-color:rgba(211,37,53,.25)}.page-item.active .page-link,.select2-container--default .select2-selection--multiple .select2-selection__choice{color:#fff!important;background-color:#d32535;border-color:#d32535}
+/*# sourceMappingURL=danger.min.css.map */

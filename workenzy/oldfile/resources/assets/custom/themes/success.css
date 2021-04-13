@@ -1,0 +1,57 @@
+/*
+ * File name: success.css
+ * Last modified: 2021.01.17 at 16:51:40
+ * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Copyright (c) 2021
+ */
+
+.form-group a:not(.btn),
+footer a:not(.btn),
+.card .card-header .nav-link:not(.active),
+.nav-pills .nav-link.selected,
+.breadcrumb-item > a,
+.page-link{
+    color: #28a745 !important;
+}
+.form-group a:not(.btn):hover,
+footer a:not(.btn):hover,
+.card .card-header .nav-link:not(.active):hover,
+.nav-pills .nav-link:not(.active):hover,
+.breadcrumb-item > a:hover,
+.page-link:hover{
+    color: #269342 !important;
+}
+
+.card .nav-pills .nav-link.active,
+.dropdown-menu > a.dropdown-item.active,
+.dropdown-menu > a.dropdown-item:active,
+.card .nav-pills .show > .nav-link {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
+.select2-container--bootstrap4 .select2-results__option--highlighted, .select2-container--bootstrap4 .select2-results__option--highlighted.select2-results__option[aria-selected=true] {
+    background-color: #28a745 !important;
+    color: #f8f9fa !important;
+}
+
+.select2-container--bootstrap4.select2-container--focus .select2-selection {
+    border-color: rgba(40, 167, 69, 0.25);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.page-link:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.form-control:focus {
+    border-color: rgba(40, 167, 69, 0.25);
+}
+
+.page-item.active .page-link,
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    color: #ffffff !important;
+    background-color: #28a745;
+    border-color: #28a745;
+}

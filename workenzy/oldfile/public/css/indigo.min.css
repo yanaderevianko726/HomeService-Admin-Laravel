@@ -1,0 +1,9 @@
+/*
+ * File name: indigo.min.css
+ * Last modified: 2021.01.30 at 16:58:59
+ * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Copyright (c) 2021
+ */
+
+.breadcrumb-item>a,.card .card-header .nav-link:not(.active),.form-group a:not(.btn),.nav-pills .nav-link.selected,.page-link,footer a:not(.btn){color:#6610f2!important}.breadcrumb-item>a:hover,.card .card-header .nav-link:not(.active):hover,.form-group a:not(.btn):hover,.nav-pills .nav-link:not(.active):hover,.page-link:hover,footer a:not(.btn):hover{color:#5b02f2!important}.card .nav-pills .nav-link.active,.card .nav-pills .show>.nav-link,.dropdown-menu>a.dropdown-item.active,.dropdown-menu>a.dropdown-item:active{background-color:#6610f2!important;color:#fff!important}.select2-container--bootstrap4 .select2-results__option--highlighted,.select2-container--bootstrap4 .select2-results__option--highlighted.select2-results__option[aria-selected=true]{background-color:#6610f2!important;color:#f8f9fa!important}.select2-container--bootstrap4.select2-container--focus .select2-selection{border-color:rgba(102,16,242,.25);-webkit-box-shadow:none;box-shadow:none}.page-link:focus{box-shadow:0 0 0 .2rem rgba(102,16,242,.25)}.form-control:focus{border-color:rgba(102,16,242,.25)}.page-item.active .page-link,.select2-container--default .select2-selection--multiple .select2-selection__choice{color:#fff!important;background-color:#6610f2;border-color:#6610f2}
+/*# sourceMappingURL=indigo.min.css.map */

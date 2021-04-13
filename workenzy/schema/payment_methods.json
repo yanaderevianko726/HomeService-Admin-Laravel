@@ -1,0 +1,80 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "primary": true,
+        "fillable": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "logo",
+        "dbType": "string",
+        "htmlType": "file",
+        "fillable": false,
+        "searchable": false,
+        "inForm": true,
+        "orderable": false,
+        "exportable": false,
+        "printable": false
+    },
+    {
+        "name": "name",
+        "dbType": "string,127",
+        "htmlType": "text",
+        "validations": "required|max:127"
+    },
+    {
+        "name": "description",
+        "dbType": "string,127",
+        "htmlType": "text",
+        "validations": "required|max:127"
+    },
+    {
+        "name": "route",
+        "dbType": "string,127",
+        "htmlType": "text",
+        "validations": "required|max:127"
+    },
+    {
+        "name": "order",
+        "dbType": "integer:unsigned:default,0",
+        "htmlType": "number",
+        "validations": "min:0"
+    },
+    {
+        "name": "default",
+        "dbType": "boolean:default,0",
+        "htmlType": "boolean"
+    },
+    {
+        "name": "enabled",
+        "dbType": "boolean:default,1",
+        "htmlType": "boolean"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": true
+    }
+]
