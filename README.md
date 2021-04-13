@@ -1,10 +1,12 @@
-- 👋 Hi, I’m @borysHozh77
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Home-Service_Flutter
 
-<!---
-borysHozh77/borysHozh77 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+The app	should	have	the	capability	to	handle	more	than	52 services	including	all	on	demand	services	like	doctors,	beauticians,	fitness	
+coaches,	carpenters,	lawyers,	plumbers,	maids,	massage	therapists,	lawn mowers	and	etc.	With	all	the	services	integrated	under	a	single	platform,	users	
+will	find	this	app	an	elixir	in	this	world	of	limited memory	space	and	unlimited	apps	to	download.	Empower	your	next	multi-service	providing	
+business	with	our	on	demand	handyman	services	app	development	solutions.
+
+## Screenshot
+
+|                Screenshot               | Screenshot |
+|:---------------------------------------:|:-------------------------------------:|
+| ![screenshot](screens/screens_1.jpg)   | ![screenshot](screens/screen_2.jpg)     |
