@@ -9,4 +9,8 @@ business	with	our	on	demand	handyman	services	app	development	solutions.
 
 |                Screenshot               | Screenshot |
 |:---------------------------------------:|:-------------------------------------:|
-| ![screenshot](screens/screens_1.jpg)   | ![screenshot](screens/screen_2.jpg)     |
+| ![screenshot](screens/screens_2.jpg)   | ![screenshot](screens/screens_4.jpg)     |
+
+|                Screenshot               | Screenshot |
+|:---------------------------------------:|:-------------------------------------:|
+| ![screenshot](screens/screens_3.jpg)   | ![screenshot](screens/screens_1.jpg)     |
