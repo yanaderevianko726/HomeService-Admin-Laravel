@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 24, 2021 at 07:05 AM
+-- Generation Time: Apr 16, 2021 at 07:07 AM
 -- Server version: 10.3.28-MariaDB-log-cll-lve
 -- PHP Version: 7.3.27
 
@@ -133,7 +133,7 @@ INSERT INTO `app_settings` (`id`, `key`, `value`) VALUES
 (121, 'accent_dark_color', '#9999AA'),
 (122, 'scaffold_dark_color', '#2C2C2C'),
 (123, 'scaffold_color', '#FAFAFA'),
-(124, 'google_maps_key', '-'),
+(124, 'google_maps_key', '-AIzaSyAX979pPIm_VJjXab0Oe8-E5x6i50614G0'),
 (125, 'mobile_language', 'en'),
 (126, 'app_version', '1.0.0'),
 (127, 'enable_version', '1'),
@@ -459,7 +459,9 @@ INSERT INTO `custom_field_values` (`id`, `value`, `view`, `custom_field_id`, `cu
 (48, 'Voluptatem. Omnis op.', 'Voluptatem. Omnis op.', 5, 'App\\Models\\User', 7, '2021-01-17 11:13:24', '2021-02-02 06:31:36'),
 (49, 'Perspiciatis aut ei', 'Perspiciatis aut ei', 6, 'App\\Models\\User', 7, '2021-01-17 11:13:24', '2021-02-02 06:31:36'),
 (51, 'sdfsdf56', 'sdfsdf56', 5, 'App\\Models\\User', 8, '2021-02-10 06:31:12', '2021-02-19 09:09:37'),
-(52, 'Adressttt', 'Adressttt', 6, 'App\\Models\\User', 8, '2021-02-10 06:31:12', '2021-02-19 08:57:27');
+(52, 'Adressttt', 'Adressttt', 6, 'App\\Models\\User', 8, '2021-02-10 06:31:12', '2021-02-19 08:57:27'),
+(53, NULL, '', 5, 'App\\Models\\User', 10, '2021-03-29 01:56:06', '2021-03-29 01:56:06'),
+(54, NULL, NULL, 6, 'App\\Models\\User', 10, '2021-03-29 01:56:06', '2021-03-29 01:56:06');
 
 -- --------------------------------------------------------
 
@@ -620,7 +622,8 @@ INSERT INTO `e_providers` (`id`, `name`, `e_provider_type_id`, `country_id`, `de
 (20, 'Yoko Henry', 2, 9, NULL, '+1 (984) 394-1764', '18', 16.00, 0, 1, 1, '2021-03-22 15:46:48', '2021-03-22 15:47:14'),
 (21, 'Photo Grapher', 3, 2, '<p>I am a photographer, I am taking a phot and video for media.</p>', '+1 20 93 601 452', '+1 20 93 601 452', 2.00, 1, 0, 1, '2021-03-24 13:36:43', '2021-03-24 13:36:43'),
 (22, 'Lauren', 3, 1, '<p>I am a barber.</p>', '+1 20 93601452', '+1 20 93 601 452', 12.00, 0, 0, 1, '2021-03-24 13:47:34', '2021-03-24 13:47:34'),
-(23, 'Joana', 3, 1, '<p>I am a barber.</p>', '+1 20 93 601 301', '+1 20 93 601 301', 12.00, 0, 0, 1, '2021-03-24 13:53:55', '2021-03-24 13:53:55');
+(23, 'Joana', 3, 1, '<p>I am a barber.</p>', '+1 20 93 601 301', '+1 20 93 601 301', 12.00, 0, 0, 1, '2021-03-24 13:53:55', '2021-03-24 13:53:55'),
+(24, 'Randy Miles', 2, 1, '<p>Hi</p>', NULL, NULL, 12.00, 0, 0, 1, '2021-03-26 00:30:38', '2021-03-26 00:30:38');
 
 -- --------------------------------------------------------
 
@@ -1292,7 +1295,10 @@ INSERT INTO `model_has_roles` (`role_id`, `model_type`, `model_id`) VALUES
 (4, 'App\\Models\\User', 3),
 (4, 'App\\Models\\User', 5),
 (4, 'App\\Models\\User', 7),
-(4, 'App\\Models\\User', 8);
+(4, 'App\\Models\\User', 8),
+(4, 'App\\Models\\User', 9),
+(4, 'App\\Models\\User', 10),
+(4, 'App\\Models\\User', 12);
 
 -- --------------------------------------------------------
 
@@ -2191,7 +2197,10 @@ INSERT INTO `users` (`id`, `name`, `email`, `phone_number`, `phone_verified_at`,
 (5, 'Josephine Harding', 'customer3@demo.com', NULL, NULL, NULL, '$2y$10$n/06hZG121ZGp3tSwDQS3uhsQKxEYspjKrn7kGlLxRinUZKiulrEm', 'gkEWScQHIol9EIRhP3m5m7JqnK5UvcGdEsKQJo7YeBcQawYFq3JAJ6SX9UKy', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-01-11 05:55:52', '2021-02-02 06:29:47'),
 (6, 'Nicolette Christiansen', 'provider2@demo.com', NULL, NULL, '2021-01-10 19:00:00', '$2y$04$WRpHC9iMxZ3f.gctQ4igsuZjsYfGjX7igVM8GsC2AMME3.4au3dYu', 'TKArYDDFHNiEI33sfExaBEhxHCs5kFaWP7EO6aNlUZfnqHrvsMCwsYeAk9s2', NULL, NULL, NULL, NULL, NULL, NULL, 'JbiYaHlRWGKkfITxH9qI87GzTMPf0zJ2Iw6NIdlS5dDvWuT5PC2sP5ELGwKx', '2021-01-11 06:33:59', '2021-02-02 06:30:56'),
 (7, 'Rose Bauer', 'customer2@demo.com', NULL, NULL, NULL, '$2y$10$3GhoIShzRdSXevYAh1NF/.67J3OshX9D2.sqY50o8kxh7EXPw7tuC', 'w6QJYqZyllY24AIR3nSsKqgj5eMSZevmgpSywwxJxUS9nwULcuriRLBxEXZC', '', NULL, NULL, NULL, NULL, NULL, 'WxYP9zjTBy9SYF5OWjcFbMt2Ob9r0bahBKzPDOtw9OrAJ89JqaMxkN5aqu8J', '2021-01-17 11:13:24', '2021-02-28 13:03:25'),
-(8, 'smarter8', 'smartersvision@gmail.com', '+12645595482', NULL, NULL, '$2y$10$MqPMTfg6RUNxxEH6aLdqnOYZUBsT7xtxkglD74pDgThV52.HJrLba', 'WivbG2oAEbEGl51EBeBuHaZeCqyfBnCVGo18nSaj2FwwiDjux2ZOAZWUoddK', '', NULL, NULL, NULL, NULL, NULL, 'SdstZCaeYW0pjqZn832HMzBD7WPGJ5m9hwWG28nhbIrzSS0etj33rbTRJ6kD', '2021-02-10 06:31:12', '2021-02-23 15:41:50');
+(8, 'smarter8', 'smartersvision@gmail.com', '+12645595482', NULL, NULL, '$2y$10$MqPMTfg6RUNxxEH6aLdqnOYZUBsT7xtxkglD74pDgThV52.HJrLba', 'WivbG2oAEbEGl51EBeBuHaZeCqyfBnCVGo18nSaj2FwwiDjux2ZOAZWUoddK', '', NULL, NULL, NULL, NULL, NULL, 'SdstZCaeYW0pjqZn832HMzBD7WPGJ5m9hwWG28nhbIrzSS0etj33rbTRJ6kD', '2021-02-10 06:31:12', '2021-02-23 15:41:50'),
+(9, 'Ezekiel Kwenda', 'kwenda0@gmail.com', NULL, NULL, NULL, '$2y$10$M0qjyc2oCe.RJGCcO/oWauYngiYTZK30G5xETq6l4eN/LJxleTgYq', 'gY9yGHSJ8oG9rIFhBOVVgIZeBxuXP5x8dFfsngAQNJCwMGHVBCEDl4FNl46T', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-03-26 00:29:22', '2021-03-26 00:29:22'),
+(10, 'Randy', 'imadehimvirall@gmail.com', '+8562093601301', '1991-12-11 18:41:41', NULL, '$2y$10$WHdpbr2LTzEHUDcX48kH7ezewP3XII6CDLj/bBgqWf48d3z4rzzK6', '3jczlkThsRHjJngNs6TCn2snFCVUZwaq9cZMN76rfL3K0NMH51IKQN2wAA1k', '', NULL, NULL, NULL, NULL, NULL, 'kK9B5nuUjTnBPkomBpmzsAoRWuHUBIrynKJe5UppN4AVbcasnBs1djNiDxmV', '2021-03-29 01:56:06', '2021-03-29 01:56:06'),
+(12, 'Randy', 'iimadehimviral@gmail.com', '+8562093108452', NULL, NULL, '$2y$10$vTJYgL9YQk7qgRpdON6yGONUqXYnLCIAthnOba6l5ay3GTGeN2R2O', 'rxr4Ta0y3jLz5R65g3ql8jtmSQplL0iod5Tk36Thcmfl33YBdKkwdlTBRYM5', 'dhL3YIODTimxg1TLl7Y6Vd:APA91bGQZw1NVgHpQdHtyGTJjVcmFfPw-76gDgnx9xHMDT5PcPytlJpDVppesHsq6gklKgcryFrdlTYz_yzwTY8bXjr5EhP0nd2Us_jGiTUaPyk-31IcUo-wVqVim71ZTaUP9YA9FKRd', NULL, NULL, NULL, NULL, NULL, NULL, '2021-04-03 20:41:18', '2021-04-03 20:41:18');
 
 --
 -- Indexes for dumped tables
@@ -2607,7 +2616,7 @@ ALTER TABLE `custom_fields`
 -- AUTO_INCREMENT for table `custom_field_values`
 --
 ALTER TABLE `custom_field_values`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
 
 --
 -- AUTO_INCREMENT for table `custom_pages`
@@ -2637,7 +2646,7 @@ ALTER TABLE `experiences`
 -- AUTO_INCREMENT for table `e_providers`
 --
 ALTER TABLE `e_providers`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `e_provider_payouts`
@@ -2769,7 +2778,7 @@ ALTER TABLE `uploads`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- Constraints for dumped tables
